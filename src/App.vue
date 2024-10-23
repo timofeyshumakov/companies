@@ -15,7 +15,7 @@
     </v-select>
     <v-select
       v-model="period"
-      :items="[`Последние 30 дней`, `Квартал`, `Год`]"
+      :items="[`Последние 30 дней`, `Квартал`, `Год`, `Диапазон месяцев`]"
 
       label="Выберите период"
       class="period"
@@ -82,10 +82,6 @@ export default {
   },
   data() {
     return {
-      monthsNames: [
-        'Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь',
-        'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декбрь'
-      ],
       selectedDateRange: null,
       selectedUsers: [],
       total: [],
@@ -106,27 +102,27 @@ export default {
           title: 'Кол-во компаний, закреплённых за сотрудником',
           align: 'center',
           children: [
-            { title: 'Предшествующий период', value: 'value1', align: 'center', sortable: true },
-            { title: 'Текущий период', value: 'value2', align: 'center', sortable: true },
-            { title: 'Динамика', value: 'value3', align: 'center', sortable: true },
+            { title: 'Предшествующий период', value: 'companiesCountPrevious', align: 'center', sortable: true },
+            { title: 'Текущий период', value: 'companiesCountCurrent', align: 'center', sortable: true },
+            { title: 'Динамика', value: 'companiesCountDynamic', align: 'center', sortable: true },
           ],
         },
         {
           title: 'Кол-во сделок по закрепленным компаниям',
           align: 'center',
           children: [
-            { title: 'Предшествующий период', value: 'value4', align: 'center', sortable: true },
-            { title: 'Текущий период', value: 'value5', align: 'center', sortable: true },
-            { title: 'Динамика', value: 'value6', align: 'center', sortable: true },
+            { title: 'Предшествующий период', value: 'dealsCountPrevious', align: 'center', sortable: true },
+            { title: 'Текущий период', value: 'dealsCountCurrent', align: 'center', sortable: true },
+            { title: 'Динамика', value: 'dealsCountCurrentDynamic', align: 'center', sortable: true },
           ],
         },
         {
           title: 'Кол-во компаний без сделок',
           align: 'center',
           children: [
-            { title: 'Предшествующий период', value: 'value7', align: 'center', sortable: true },
-            { title: 'Текущий период', value: 'value8', align: 'center', sortable: true },
-            { title: 'Динамика', value: 'value9', align: 'center', sortable: true },
+            { title: 'Предшествующий период', value: 'compainesWithoutDealsPrevious', align: 'center', sortable: true },
+            { title: 'Текущий период', value: 'compainesWithoutDealsCurrent', align: 'center', sortable: true },
+            { title: 'Динамика', value: 'compainesWithoutDealsDynamic', align: 'center', sortable: true },
           ],
         },
       ],
@@ -299,15 +295,15 @@ export default {
       let items = paginatedUsers.map((val, index ) => ({
         ID: val,
         NAME: this.users.find(obj => obj.ID  === val).FULL_NAME,
-        value1: assignedUsersCount.previous[index],
-        value2: assignedUsersCount.current[index],
-        value3: assignedUsersCount.dynamic[index],
-        value4: totalCount.previous[index],
-        value5: totalCount.current[index],
-        value6: totalCount.dynamic[index],
-        value7: compainesWithoutDeals.previous[index],
-        value8: compainesWithoutDeals.current[index],
-        value9: compainesWithoutDeals.dynamic[index],
+        companiesCountPrevious: assignedUsersCount.previous[index],
+        companiesCountCurrent: assignedUsersCount.current[index],
+        companiesCountDynamic: assignedUsersCount.dynamic[index],
+        dealsCountPrevious: totalCount.previous[index],
+        dealsCountCurrent: totalCount.current[index],
+        dealsCountDynamic: totalCount.dynamic[index],
+        compainesWithoutDealsPrevious: compainesWithoutDeals.previous[index],
+        compainesWithoutDealsCurrent: compainesWithoutDeals.current[index],
+        compainesWithoutDealsDynamic: compainesWithoutDeals.dynamic[index],
       }));
 
       for(i = 0; i < items.length; i++) {
@@ -320,31 +316,31 @@ export default {
       if(this.total.length === 0){
         this.total = {
           ID: "Итого",
-          value1: assignedUsersSum.previous,
-          value2: assignedUsersSum.current,
-          value3: assignedUsersSum.dynamic,
-          value4: totalCountSum.previous,
-          value5: totalCountSum.current,
-          value6: totalCountSum.dynamic,
-          value7: compainesWithoutDealsSum.previous,
-          value8: compainesWithoutDealsSum.current,
-          value9: compainesWithoutDealsSum.dynamic,
+          companiesCountPrevious: assignedUsersSum.previous,
+          companiesCountCurrent: assignedUsersSum.current,
+          companiesCountDynamic: assignedUsersSum.dynamic,
+          dealsCountPrevious: totalCountSum.previous,
+          dealsCountCurrent: totalCountSum.current,
+          dealsCountDynamic: totalCountSum.dynamic,
+          compainesWithoutDealsPrevious: compainesWithoutDealsSum.previous,
+          compainesWithoutDealsCurrent: compainesWithoutDealsSum.current,
+          compainesWithoutDealsDynamic: compainesWithoutDealsSum.dynamic,
         };
       }else{
-        this.total.value1 += assignedUsersSum.previous;
-        this.total.value2 += assignedUsersSum.current;
-        this.total.value3 += assignedUsersSum.dynamic;
-        this.total.value4 += totalCountSum.previous;
-        this.total.value5 += totalCountSum.current;
-        this.total.value6 += totalCountSum.dynamic;
-        this.total.value7 += compainesWithoutDealsSum.previous;
-        this.total.value8 += compainesWithoutDealsSum.current;
-        this.total.value9 += compainesWithoutDealsSum.dynamic;
+        this.total.companiesCountPrevious += assignedUsersSum.previous;
+        this.total.companiesCountCurrent += assignedUsersSum.current;
+        this.total.companiesCountDynamic += assignedUsersSum.dynamic;
+        this.total.dealsCountPrevious += totalCountSum.previous;
+        this.total.dealsCountCurrent += totalCountSum.current;
+        this.total.dealsCountDynamic += totalCountSum.dynamic;
+        this.total.compainesWithoutDealsPrevious += compainesWithoutDealsSum.previous;
+        this.total.compainesWithoutDealsCurrent += compainesWithoutDealsSum.current;
+        this.total.compainesWithoutDealsDynamic += compainesWithoutDealsSum.dynamic;
       }
 
-      this.chartBuild('Кол-во компаний, закреплённых за сотрудником, за период', 'chart1', [this.total.value1, this.total.value2, this.total.value3]);
-      this.chartBuild('Кол-во созданных сделок по закрепленным компаниям за период', 'chart2', [this.total.value4, this.total.value5, this.total.value6]);
-      this.chartBuild('Кол-во компаний, закреплённых за сотрудником, без сделок за период', 'chart3', [this.total.value7, this.total.value8, this.total.value9]);
+      this.chartBuild('Кол-во компаний, закреплённых за сотрудником, за период', 'chart1', [this.total.companiesCountPrevious, this.total.companiesCountCurrent, this.total.companiesCountDynamic]);
+      this.chartBuild('Кол-во созданных сделок по закрепленным компаниям за период', 'chart2', [this.total.dealsCountPrevious, this.total.dealsCountCurrent, this.total.dealsCountDynamic]);
+      this.chartBuild('Кол-во компаний, закреплённых за сотрудником, без сделок за период', 'chart3', [this.total.compainesWithoutDealsPrevious, this.total.compainesWithoutDealsCurrent, this.total.compainesWithoutDealsDynamic]);
       this.paginationPages();
 
     },
