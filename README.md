@@ -7,4 +7,4 @@
 <p>Фильтр: Отчетный период (выбор месяца или диапазона месяцев).</p>
 <p>Было выделенно времени: 3 дня</p>
 <p>Затрачено времени: 3 дня на разработку и тестирование</p>
-<p>Понравилось приложение? закажите похожее: <a target="_blank" href="https://t.me/timofey_bitrix24"><img alt="telegram"  width="32px" height="32px" title="telegram" src="timofeyshumakov/assets/tg.png"></a> <a target="_blank" href="https://vk.com/timofey_bitrix24"><img  width="32px" height="32px" alt="vk" title="vk" src="timofeyshumakov/assets/vk.png"></a></p>
+<p>Понравилось приложение? закажите похожее: <a target="_blank" href="https://t.me/timofey_bitrix24"><img alt="telegram"  width="32px" height="32px" title="telegram" src="timofeyshumakov/assets/tg.png"></a> <a target="_blank" href="https://vk.com/timofey_bitrix24"><img  width="32px" height="32px" alt="vk" title="vk" src="[timofeyshumakov/assets/](https://github.com/timofeyshumakov/timofeyshumakov/tree/main/assets/vk.png)"></a></p>
