@@ -5,4 +5,6 @@
 <p>• Кол-во компаний, закреплённых за сотрудником, без сделок за период;</p>
 <p>• Динамика изменения показателей в сравнении с предшествующим периодом. Отчетный период по умолчанию: текущий месяц.</p>
 <p>Фильтр: Отчетный период (выбор месяца или диапазона месяцев).</p>
-<p>Ссылка на приложение: https://bodrii.bitrix24.ru/marketplace/app/169/</p>
+<p>Было выделенно времени: 3 дня</p>
+<p>Затрачено времени: 3 дня на разработку и тестирование</p>
+<p>Понравилось приложение? закажите похожее: <a target="_blank" href="https://t.me/timofey_bitrix24"><img alt="telegram"  width="32px" height="32px" title="telegram" src="assets/tg.png"></a> <a target="_blank" href="https://vk.com/timofey_bitrix24"><img  width="32px" height="32px" alt="vk" title="vk" src="assets/vk.png"></a></p>
