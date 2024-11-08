@@ -4,20 +4,17 @@
 <tr><td><img  width="600px" src="https://github.com/user-attachments/assets/ae5436cd-3b29-4dbe-a3bf-22cc9e1489d1"></td></tr>
 </table>
   </div>
-  
   <table cellSpacing="1" cellpadding="1" border="1">
-    <tr><td><img width="64px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Vuetify-Light.svg"></td></tr>
+    <tr>
+      <td><img width="64px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Vuetify-Light.svg"></td>
+      <td><img  width="64px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/VueJS-Light.svg"></td>
+      <td><img  width="64px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/JavaScript.svg"></td>
+      <td><img  width="64px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Sass.svg"></td>
+      <td><img  width="64px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Vite-Light.svg"></td>
+      <td><img  width="64px" src="https://github.com/user-attachments/assets/8d146d5c-1c3e-40e5-af64-584c1aadf25f"></td>
+    </tr>
     <tr><td align="center">Vuetify</td></tr>
   </table>
-    
-  
-  <img  width="32px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/VueJS-Light.svg">
-  <img  width="32px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/JavaScript.svg">
-  <img  width="32px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Sass.svg">
-<img  width="32px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Vite-Light.svg">
-<img  width="32px" src="https://github.com/user-attachments/assets/8d146d5c-1c3e-40e5-af64-584c1aadf25f">
-
-
 Приложение предназначено для отслеживания ключевых показателей, связанных с работой сотрудников в сфере продаж.
 <h4>Отслеживаемые показатели:</h4>
 <p>• Кол-во компаний, закреплённых за сотрудником, за период (= кол-во компаний, в которых сотрудник был указан ответственным в заданный период);</p>
