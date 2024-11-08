@@ -4,6 +4,7 @@
 <tr><td><img  width="600px" src="https://github.com/user-attachments/assets/ae5436cd-3b29-4dbe-a3bf-22cc9e1489d1"></td></tr>
 </table>
   </div>
+  <img  width="600px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Vuetify-Light.svg">
 Приложение предназначено для отслеживания ключевых показателей, связанных с работой сотрудников в сфере продаж.
 <h4>Отслеживаемые показатели:</h4>
 <p>• Кол-во компаний, закреплённых за сотрудником, за период (= кол-во компаний, в которых сотрудник был указан ответственным в заданный период);</p>
