@@ -6,8 +6,8 @@
   </div>
   
   <table cellSpacing="1" cellpadding="1" border="1">
-    <tr><td><img  width="100%" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Vuetify-Light.svg"></td></tr>
-      <tr><td>Vuetify</td></tr>
+    <tr width="64px"><td><img  width="100%" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Vuetify-Light.svg"></td></tr>
+    <tr><td align="center">Vuetify</td></tr>
   </table>
     
   
