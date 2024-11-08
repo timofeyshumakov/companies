@@ -1,6 +1,6 @@
 <h2>Статистика по компаниям с разбиением по сотрудникам</h2>
-<table width="100%" cellSpacing="1" cellpadding="1" border="1">
-<tr><td><img  width="100%" src="https://github.com/user-attachments/assets/ae5436cd-3b29-4dbe-a3bf-22cc9e1489d1"></td></tr>
+<table width="600px" cellSpacing="1" cellpadding="1" border="1">
+<tr><td><img  width="600px" src="https://github.com/user-attachments/assets/ae5436cd-3b29-4dbe-a3bf-22cc9e1489d1"></td></tr>
 </table>
 Приложение предназначено для отслеживания ключевых показателей, связанных с работой сотрудников в сфере продаж.
 <h4>Отслеживаемые показатели:</h4>
