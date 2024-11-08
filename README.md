@@ -5,12 +5,17 @@
 </table>
   </div>
   
-  <img  width="24px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Vuetify-Light.svg">
-  <img  width="24px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/VueJS-Light.svg">
-  <img  width="24px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/JavaScript.svg">
-  <img  width="24px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Sass.svg">
-<img  width="24px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Vite-Light.svg">
-<img  width="24px" src="https://github.com/user-attachments/assets/8d146d5c-1c3e-40e5-af64-584c1aadf25f">
+  <table cellSpacing="1" cellpadding="1" border="1">
+    <tr><td><img  width="32px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Vuetify-Light.svg"></td></tr>
+      <tr>Vuetify</tr>
+  </table>
+    
+  
+  <img  width="32px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/VueJS-Light.svg">
+  <img  width="32px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/JavaScript.svg">
+  <img  width="32px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Sass.svg">
+<img  width="32px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Vite-Light.svg">
+<img  width="32px" src="https://github.com/user-attachments/assets/8d146d5c-1c3e-40e5-af64-584c1aadf25f">
 
 
 Приложение предназначено для отслеживания ключевых показателей, связанных с работой сотрудников в сфере продаж.
