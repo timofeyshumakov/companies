@@ -15,7 +15,7 @@
 <h4>Было выделенно времени: 4 дня</h4>
 <h4>Затрачено времени: 3 дня на разработку и тестирование</h4>
   <h4>Использованные технологии: </h4>
-  <table cellSpacing="1" cellpadding="1" border="1">
+  <table align="center" cellSpacing="1" cellpadding="1" border="1">
     <tr>
       <td><img width="64px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Vuetify-Light.svg"></td>
       <td><img  width="64px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/VueJS-Light.svg"></td>
@@ -24,12 +24,14 @@
       <td><img  width="64px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Vite-Light.svg"></td>
       <td><img  width="64px" src="https://github.com/user-attachments/assets/8d146d5c-1c3e-40e5-af64-584c1aadf25f"></td>
     </tr>
-    <tr><td align="center">Vuetify</td></tr>
-    <tr><td align="center">Vue.JS</td></tr>
-    <tr><td align="center">JavaScript</td></tr>
-    <tr><td align="center">Sass</td></tr>
-    <tr><td align="center">Vite</td></tr>
-    <tr><td align="center">Bitrix24</td></tr>
+    <tr>
+      <td align="center">Vuetify</td>
+    <td align="center">Vue.JS</td>
+    <td align="center">JavaScript</td>
+    <td align="center">Sass</td>
+    <td align="center">Vite</td>
+    <td align="center">Bitrix24</td>
+      </tr>
   </table>
 <h4>Демонстрация работы приложения:</h4>
 <table width="100%" cellSpacing="1" cellpadding="1" border="1">
