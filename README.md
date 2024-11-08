@@ -15,7 +15,7 @@
 <h4>Было выделенно времени: 4 дня</h4>
 <h4>Затрачено времени: 3 дня на разработку и тестирование</h4>
   <h4>Использованные технологии: </h4>
-  <table align="center" cellSpacing="1" cellpadding="1" border="1">
+  <table cellSpacing="1" cellpadding="1" border="1">
     <tr>
       <td><img width="64px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Vuetify-Light.svg"></td>
       <td><img  width="64px" src="https://github.com/tandpfun/skill-icons/blob/main/icons/VueJS-Light.svg"></td>
